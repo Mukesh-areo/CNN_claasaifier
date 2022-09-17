@@ -13,3 +13,5 @@
 9.Run tox for testing your package
 10.Update the dvc.yaml
 11.Run "Dvc repro" for running all the stages in pipeline
+
+17/9/2022
