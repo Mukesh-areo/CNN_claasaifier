@@ -15,4 +15,6 @@
 11.Run "Dvc repro" for running all the stages in pipeline
 
 17/9/2022
- 
+
+Autocomplete the following information from the command line for    each stage information  yourself and    you can also specify
+TabNine:: 
