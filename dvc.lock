@@ -6,11 +6,19 @@ stages:
     - path: configs/config.yaml
       md5: 7a9e9a054d22e6926a6730ef8d113235
       size: 829
+    - path: src/deepClassifier/Component/data_ingestion.py
+      md5: 48ffe18b031c9ba5fc935c57d8cd4b15
+      size: 1937
+    - path: src/deepClassifier/config/Configuration.py
+      md5: f23867a883ff28bc2399f8e090b2ab52
+      size: 3389
+    - path: src/deepClassifier/entity/config_entity.py
+      md5: ecb356ad34a7ac0a085adf9167f61f8e
+      size: 911
     - path: src/deepClassifier/pipeline/stage_01_data_ingestion.py
       md5: 4103dcb9520e5b6d29e61a6bd8ba5f70
       size: 706
     outs:
-    - path: artifacts/data_ingestion/PetImages
-      md5: 3a5cf86541f22c236620ce5b952ad684.dir
-      size: 848866410
-      nfiles: 24998
+    - path: artifacts/data_ingestion/data.zip
+      md5: e137a4507370d942469b6d267a24ea04
+      size: 824887076
