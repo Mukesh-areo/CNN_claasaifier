@@ -18,3 +18,15 @@
 
 Autocomplete the following information from the command line for    each stage information  yourself and    you can also specify
 TabNine:: 
+
+Tox - To create the environment and test everything
+pytest - to check the testcase
+Mypy - will check the error for eg( if you are passing wrong datatype to the function) ---it called linting of datatype
+flake8 - It will check the standard code formatting eg: indentation  ---it is called code linting
+
+
+
+MLFLOW_TRACKING_URI=https://dagshub.com/Mukesh-areo/CNN_claasaifier.mlflow \
+MLFLOW_TRACKING_USERNAME=Mukesh-areo \
+MLFLOW_TRACKING_PASSWORD=434cc55976d25211145784e69290bf348ce1e14a \
+python script.py
