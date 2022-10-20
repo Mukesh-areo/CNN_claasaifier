@@ -2,7 +2,7 @@
 
 ## workflow
 
->>1.update your config.yaml
+- 1.update your config.yaml
 >>2.update secrets.yaml [Optional]
 3.update params.yaml
 4.update the entity
